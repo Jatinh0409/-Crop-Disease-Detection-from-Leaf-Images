@@ -95,8 +95,4 @@ Download "New Plant Diseases Dataset" or "PlantVillage" from Kaggle, arrange
 as `data/train/<class_name>/*.jpg` and `data/val/<class_name>/*.jpg`, and
 rerun `train_model.py` — no other code changes needed.
 
-## Resume line
 
-"Built a leaf-disease classifier (ResNet18 transfer learning) with Grad-CAM
-explainability, served via FastAPI/Docker; achieved 95%+ validation accuracy
-with sub-200ms inference including heatmap generation."
